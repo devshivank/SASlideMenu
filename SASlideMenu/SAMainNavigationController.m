@@ -47,7 +47,7 @@
 {
     if (self.navigationController == nil) {
 
-        ViewController *moreViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] ;
+        SAMoreViewController *moreViewController = [[SAMoreViewController alloc] initWithNibName:@"SAMoreViewController" bundle:nil] ;
         moreViewController.navigationController.navigationBarHidden = YES;
         UINavigationController *moreNavController = [[UINavigationController alloc] initWithRootViewController: moreViewController] ;
         self.navigationController = moreNavController;
