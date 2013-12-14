@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SABaseViewController.h
 //  SASlideMenu
 //
 //  Created by Anurag Gupta on 14/12/13.
@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SABaseViewController.h"
 
-@interface ViewController : SABaseViewController
+@interface SABaseViewController : UIViewController
+
+//Add Navigation Bar Buttons
+- (void)addSlideMenuButton;
 
 @end

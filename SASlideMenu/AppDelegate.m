@@ -17,7 +17,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.mainNavigationController = [SAMainNavigationController navigationController:self.viewController];
+    self.window.rootViewController = self.mainNavigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -49,4 +50,8 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
++ (AppDelegate *)sharedAppDelegate
+{
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
 @end

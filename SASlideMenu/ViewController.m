@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self addSlideMenuButton];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

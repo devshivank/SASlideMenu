@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SAMoreViewController.h
 //  SASlideMenu
 //
 //  Created by Anurag Gupta on 14/12/13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SABaseViewController.h"
 
-@interface ViewController : SABaseViewController
+@interface SAMoreViewController : UIViewController
 
 @end

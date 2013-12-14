@@ -18,6 +18,14 @@
 		396BDDAC185C25FF006056CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396BDDAB185C25FF006056CE /* Default-568h@2x.png */; };
 		396BDDAF185C25FF006056CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BDDAE185C25FF006056CE /* ViewController.m */; };
 		396BDDB2185C25FF006056CE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396BDDB0185C25FF006056CE /* ViewController.xib */; };
+		396BDDBA185C27F1006056CE /* SAMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BDDB9185C27F1006056CE /* SAMainNavigationController.m */; };
+		396BDDBE185C2859006056CE /* SABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BDDBC185C2859006056CE /* SABaseViewController.m */; };
+		396BDDBF185C2859006056CE /* SABaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396BDDBD185C2859006056CE /* SABaseViewController.xib */; };
+		396BDDC2185C28F4006056CE /* SAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BDDC1185C28F4006056CE /* SAUtils.m */; };
+		396BDDCA185C2B2C006056CE /* SAMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BDDC8185C2B2C006056CE /* SAMoreViewController.m */; };
+		396BDDCB185C2B2C006056CE /* SAMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396BDDC9185C2B2C006056CE /* SAMoreViewController.xib */; };
+		396BDDCF185C2E60006056CE /* btn_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 396BDDCD185C2E60006056CE /* btn_more.png */; };
+		396BDDD0185C2E60006056CE /* btn_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396BDDCE185C2E60006056CE /* btn_more@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,20 @@
 		396BDDAD185C25FF006056CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		396BDDAE185C25FF006056CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		396BDDB1185C25FF006056CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		396BDDB8185C27F1006056CE /* SAMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMainNavigationController.h; sourceTree = "<group>"; };
+		396BDDB9185C27F1006056CE /* SAMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMainNavigationController.m; sourceTree = "<group>"; };
+		396BDDBB185C2859006056CE /* SABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABaseViewController.h; sourceTree = "<group>"; };
+		396BDDBC185C2859006056CE /* SABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SABaseViewController.m; sourceTree = "<group>"; };
+		396BDDBD185C2859006056CE /* SABaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SABaseViewController.xib; sourceTree = "<group>"; };
+		396BDDC0185C28F4006056CE /* SAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAUtils.h; sourceTree = "<group>"; };
+		396BDDC1185C28F4006056CE /* SAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAUtils.m; sourceTree = "<group>"; };
+		396BDDC3185C2923006056CE /* ImageConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageConstant.h; sourceTree = "<group>"; };
+		396BDDC7185C2B2C006056CE /* SAMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMoreViewController.h; sourceTree = "<group>"; };
+		396BDDC8185C2B2C006056CE /* SAMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMoreViewController.m; sourceTree = "<group>"; };
+		396BDDC9185C2B2C006056CE /* SAMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAMoreViewController.xib; sourceTree = "<group>"; };
+		396BDDCD185C2E60006056CE /* btn_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_more.png; sourceTree = "<group>"; };
+		396BDDCE185C2E60006056CE /* btn_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_more@2x.png"; sourceTree = "<group>"; };
+		396BDDD1185C2EF2006056CE /* ValueConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +107,22 @@
 			children = (
 				396BDDA4185C25FF006056CE /* AppDelegate.h */,
 				396BDDA5185C25FF006056CE /* AppDelegate.m */,
+				396BDDC3185C2923006056CE /* ImageConstant.h */,
+				396BDDD1185C2EF2006056CE /* ValueConstant.h */,
 				396BDDAD185C25FF006056CE /* ViewController.h */,
 				396BDDAE185C25FF006056CE /* ViewController.m */,
 				396BDDB0185C25FF006056CE /* ViewController.xib */,
+				396BDDB8185C27F1006056CE /* SAMainNavigationController.h */,
+				396BDDB9185C27F1006056CE /* SAMainNavigationController.m */,
+				396BDDBB185C2859006056CE /* SABaseViewController.h */,
+				396BDDBC185C2859006056CE /* SABaseViewController.m */,
+				396BDDBD185C2859006056CE /* SABaseViewController.xib */,
+				396BDDC7185C2B2C006056CE /* SAMoreViewController.h */,
+				396BDDC8185C2B2C006056CE /* SAMoreViewController.m */,
+				396BDDC9185C2B2C006056CE /* SAMoreViewController.xib */,
+				396BDDC0185C28F4006056CE /* SAUtils.h */,
+				396BDDC1185C28F4006056CE /* SAUtils.m */,
+				396BDDCC185C2E56006056CE /* Resources */,
 				396BDD9C185C25FF006056CE /* Supporting Files */,
 			);
 			path = SASlideMenu;
@@ -105,6 +140,15 @@
 				396BDDAB185C25FF006056CE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		396BDDCC185C2E56006056CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				396BDDCD185C2E60006056CE /* btn_more.png */,
+				396BDDCE185C2E60006056CE /* btn_more@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +207,10 @@
 				396BDDAA185C25FF006056CE /* Default@2x.png in Resources */,
 				396BDDAC185C25FF006056CE /* Default-568h@2x.png in Resources */,
 				396BDDB2185C25FF006056CE /* ViewController.xib in Resources */,
+				396BDDBF185C2859006056CE /* SABaseViewController.xib in Resources */,
+				396BDDCB185C2B2C006056CE /* SAMoreViewController.xib in Resources */,
+				396BDDCF185C2E60006056CE /* btn_more.png in Resources */,
+				396BDDD0185C2E60006056CE /* btn_more@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +224,10 @@
 				396BDDA2185C25FF006056CE /* main.m in Sources */,
 				396BDDA6185C25FF006056CE /* AppDelegate.m in Sources */,
 				396BDDAF185C25FF006056CE /* ViewController.m in Sources */,
+				396BDDBA185C27F1006056CE /* SAMainNavigationController.m in Sources */,
+				396BDDBE185C2859006056CE /* SABaseViewController.m in Sources */,
+				396BDDC2185C28F4006056CE /* SAUtils.m in Sources */,
+				396BDDCA185C2B2C006056CE /* SAMoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

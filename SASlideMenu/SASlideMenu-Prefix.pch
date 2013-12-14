@@ -11,4 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "ImageConstant.h"
+    #import "SAUtils.h"
+    #import "ValueConstant.h"
 #endif
